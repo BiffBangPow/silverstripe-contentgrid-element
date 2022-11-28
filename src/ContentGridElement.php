@@ -27,7 +27,7 @@ class ContentGridElement extends BaseElement
     private static $plural_name = 'content grid elements';
     private static $description = 'Displays content in a grid';
     private static $inline_editable = false;
-    private static $css_cols_prefix = 'row-cols-';
+    private static $css_cols_prefix = 'row-cols-1 row-cols-md-';
     private static $css_max_cols = 6;
     private static $controller_class = ContentGridElementController::class;
 
