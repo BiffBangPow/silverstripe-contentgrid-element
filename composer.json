@@ -20,7 +20,8 @@
     "dnadesign/silverstripe-elemental": "^4@stable || ^3@stable",
     "biffbangpow/silverstripe-element-spacing": "^1",
     "biffbangpow/silverstripe-sortable-extension": "^2",
-    "biffbangpow/silverstripe-cta-extension": "^1"
+    "biffbangpow/silverstripe-cta-extension": "^1",
+    "dorsetdigital/silverstripe-enhanced-requirements": "^1"
   },
   "autoload": {
     "psr-4": {

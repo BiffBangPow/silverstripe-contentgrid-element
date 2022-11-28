@@ -2,6 +2,7 @@
 
 namespace BiffBangPow\Element;
 
+use BiffBangPow\Element\Control\ContentGridElementController;
 use BiffBangPow\Element\Model\ContentGridItem;
 use BiffBangPow\Extension\CallToActionExtension;
 use DNADesign\Elemental\Models\BaseElement;
@@ -28,6 +29,7 @@ class ContentGridElement extends BaseElement
     private static $inline_editable = false;
     private static $css_cols_prefix = 'row-cols-';
     private static $css_max_cols = 6;
+    private static $controller_class = ContentGridElementController::class;
 
     private static $db = [
         'Content' => 'HTMLText',

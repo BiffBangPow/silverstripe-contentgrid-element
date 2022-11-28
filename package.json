@@ -1,0 +1,27 @@
+{
+  "name": "silverstripe-team-element",
+  "version": "1.0.0",
+  "description": "An element showing team members in a Silverstripe element",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BiffBangPow/silverstripe-team-element.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BiffBangPow/silverstripe-team-element/issues"
+  },
+  "homepage": "https://github.com/BiffBangPow/silverstripe-team-element#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-mode": "^1.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "postcss": "^8.4.17",
+    "sass": "^1.55.0"
+  }
+}
