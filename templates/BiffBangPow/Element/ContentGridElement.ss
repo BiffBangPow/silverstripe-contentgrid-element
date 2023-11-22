@@ -30,7 +30,7 @@
 
     <div class="row $GridClass mt-3">
         <% loop $ContentItems %>
-            <div class="col">
+            <div class="col mb-3">
                 <% if $Title %>
                     <h3 class="griditem-title">$Title</h3>
                 <% end_if %>
