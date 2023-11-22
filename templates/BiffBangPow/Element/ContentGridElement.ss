@@ -2,7 +2,7 @@
     <% if $Title && $ShowTitle %>
         <div class="row">
             <div class="col-12">
-                <h2 class="mb-5">$Title</h2>
+                <h2 class="mb-4 element-title">$Title</h2>
             </div>
         </div>
     <% end_if %>
@@ -19,7 +19,7 @@
         <div class="row mt-3">
             <div class="cta col-12 text-center">
                 <p>
-                    <a href="$CTALink" class="cta-link btn btn-secondary"
+                    <a href="$CTALink" class="cta-link btn btn-outline-primary"
                         <% if $CTAType == 'External' %>target="_blank" rel="noopener"
                         <% else_if $CTAType == 'Download' %>download
                         <% end_if %>>
@@ -34,13 +34,13 @@
         <% loop $ContentItems %>
             <div class="col">
                 <% if $Title %>
-                    <h3>$Title</h3>
+                    <h3 class="griditem-title">$Title</h3>
                 <% end_if %>
                 $Content
                 <% if $CTAType != 'None' %>
-                    <div class="cta text-center">
+                    <div class="cta text-center my-4">
                         <p>
-                            <a href="$CTALink" class="cta-link btn btn-secondary"
+                            <a href="$CTALink" class="cta-link btn btn-outline-primary"
                                 <% if $CTAType == 'External' %>target="_blank" rel="noopener"
                                 <% else_if $CTAType == 'Download' %>download
                                 <% end_if %>>
